@@ -9,3 +9,79 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.display-flex{
+    display: flex;
+}
+
+/* dark 02 */
+.text-gray{
+    color: #424242;
+}
+
+/* dark 03 */
+.text-light-gray{
+    color: #727272;
+}
+
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.btn-primary{
+    padding: 20px 25px;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    /* margin-bottom: ; */
+
+}
+
+.navber{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    font-weight: 700;
+    font-size: 45px;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 2.9rem;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navber, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* banner related styles */
+.banner-content{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 700;
+    font-size: 4rem;
+}
+
+.banner-image{
+    width: 100%;
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .navber, .nav-links{
+        flex-direction: column;
+    }
+}
